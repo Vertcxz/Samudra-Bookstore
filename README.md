@@ -1,4 +1,4 @@
-<h1 align="center">Samudra Library</h1>
+<h1 align="center">Samudra Bookstore</h1>
 
 
 ## Fitur 
@@ -11,8 +11,6 @@
 - Melakukan peminjaman buku
 - Menampilkan chart
 - Mengimplementasikan livewire
-- Menggunakan admin LTE
-- Menggunakan fakerphp
 - Dan lain-lain
 
 ## User
