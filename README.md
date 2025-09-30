@@ -1,4 +1,4 @@
-<h1 align="center">Samudra Library</h1>
+<h1 align="center">Samudra Bookstore</h1>
 
 
 ## Fitur 
