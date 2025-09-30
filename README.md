@@ -1,11 +1,5 @@
-<h1 align="center">Laravel 8 Perpustakaan</h1>
+<h1 align="center">Samudra Library</h1>
 
-## Author
-
-Laravel 8 pepustakaan dibuat oleh :
-
-- Github : <a href="https://github.com/musyahya"> Musyahya </a>
-- Youtube : <a href="https://www.youtube.com/channel/UC1iCvpMssrHnUsWKEe2cOag"> Musyahya </a>
 
 ## Fitur 
 
@@ -118,11 +112,4 @@ https://drive.google.com/drive/folders/1bCEhRhFVnTiRG9YhibUz2lLwFC6SIFNW?usp=sha
 php artisan serve
 ```
 
-## Contributing
-
-Contributions, issues and feature requests di persilahkan.
-Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi. **Berhubung Project ini saya sudah selesaikan sendiri, namun banyak fitur yang kalian dapat tambahkan silahkan berkontribusi yaa!**
-
-## License
-
-- Sinar Dunia
+## Selesai
