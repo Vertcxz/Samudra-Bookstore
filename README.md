@@ -19,7 +19,7 @@
 - email: admin@gmail.com
 - Password: 123123123
 
-**Petuags**
+**Petugas**
 
 - email: petugas@gmail.com
 - Password: 123123123
@@ -28,5 +28,3 @@
 
 - email: peminjam@gmail.com
 - Password: 123123123
-
-## Selesai
