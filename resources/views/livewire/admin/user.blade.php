@@ -39,6 +39,7 @@
                     <th width="10%">No</th>
                     <th>Nama</th>
                     <th>Role</th>
+                    <th width="15%">Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -54,6 +55,11 @@
                             @else
                                 <span class="badge bg-fuchsia">Peminjam</span>
                             @endif
+                        </td>
+                        <td>
+                            <button wire:click="delete({{$item->id}})" onclick="return confirm('Apakah Anda yakin ingin menghapus user ini?')" class="btn btn-sm btn-danger">
+                                <i class="fas fa-trash"></i> Hapus
+                            </button>
                         </td>
                     </tr>
                 @endforeach

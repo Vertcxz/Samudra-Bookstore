@@ -25,7 +25,7 @@ class User extends Component
         return [
             'name' => 'required',
             'email' => ['required', 'email', 'unique:App\Models\User,email'],
-            'password' => ['required', 'confirmed', Password::min(8)],
+            'password' => ['required', 'confirmed', 'max:16', Password::min(8)],
             'password_confirmation' => 'required',
         ];
     }
@@ -56,7 +56,7 @@ class User extends Component
     public function store()
     {
         $this->validate();
-        
+
         $user = ModelsUser::create([
             'name' => $this->name,
             'email' => $this->email,
@@ -73,6 +73,17 @@ class User extends Component
 
         session()->flash('sukses', 'Data berhasil ditambahkan.');
         $this->format();
+    }
+
+    public function delete($id)
+    {
+        $user = ModelsUser::find($id);
+        if ($user) {
+            $user->delete();
+            session()->flash('sukses', 'Data berhasil dihapus.');
+        } else {
+            session()->flash('error', 'Data tidak ditemukan.');
+        }
     }
 
     public function updatingSearch()
