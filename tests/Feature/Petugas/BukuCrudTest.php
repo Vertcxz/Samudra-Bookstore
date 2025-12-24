@@ -170,7 +170,7 @@ class BukuCrudTest extends TestCase
     }
 
     /** READ: show detail */
-    public function test_lihat_detail_buku_mengisi_property_komponen()
+    public function test_lihat_detail_buku()
     {
         $buku = Buku::create([
             'judul'       => 'Buku detail',
@@ -191,8 +191,8 @@ class BukuCrudTest extends TestCase
             ->assertSet('stok', $buku->stok);
     }
 
-    /** UPDATE: tanpa ganti sampul */
-    public function test_update_buku_tanpa_mengganti_sampul()
+    /** UPDATE: tanpa ganti judul*/
+    public function test_gagal_update_buku_karena_judul_dikosongkan()
     {
         Storage::fake('public');
 
@@ -231,8 +231,8 @@ class BukuCrudTest extends TestCase
         Storage::disk('public')->assertExists($oldPath);
     }
 
-    /** UPDATE: dengan ganti sampul */
-    public function test_update_buku_dengan_mengganti_sampul()
+    /** UPDATE: dengan ganti judul */
+    public function test_update_buku_dengan_mengganti_judul()
     {
         Storage::fake('public');
 

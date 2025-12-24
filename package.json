@@ -20,5 +20,24 @@
         "resolve-url-loader": "^3.1.2",
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1"
-    }
+    },
+    "name": "laravel8_perpustakaan",
+    "version": "1.0.0",
+    "description": "<h1 align=\"center\">Samudra Bookstore</h1>",
+    "main": "webpack.mix.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vertcxz/Samudra-Bookstore.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/Vertcxz/Samudra-Bookstore/issues"
+    },
+    "homepage": "https://github.com/Vertcxz/Samudra-Bookstore#readme"
 }
